@@ -3,7 +3,7 @@
 import { useCounter } from '../hooks/useCounter';
 
 export function Counter() {
-  const { count, increment, decrement, reset } = useCounter(0, 2);
+  const { count, increment, decrement, reset } = useCounter(0, 1);
 
   return (
     <div className="p-4">
