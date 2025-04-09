@@ -97,6 +97,17 @@ export default function Home() {
               Formデモを見る
             </Link>
           </div>
+
+          <div className="p-4 border rounded">
+            <h2 className="text-xl font-semibold mb-2">useDebounceの例</h2>
+            <p className="mb-4">入力値の変更を一定時間待ってから処理を行うカスタムフックの例です。</p>
+            <Link
+              href="/debounce"
+              className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            >
+              Debounceデモを見る
+            </Link>
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
