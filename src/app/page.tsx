@@ -86,6 +86,17 @@ export default function Home() {
               Fetchデモを見る
             </Link>
           </div>
+
+          <div className="p-4 border rounded">
+            <h2 className="text-xl font-semibold mb-2">useFormの例</h2>
+            <p className="mb-4">フォームの状態管理とバリデーションを行うカスタムフックの例です。</p>
+            <Link
+              href="/form"
+              className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            >
+              Formデモを見る
+            </Link>
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
