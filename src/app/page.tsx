@@ -66,6 +66,17 @@ export default function Home() {
           </div>
 
           <div className="p-4 border rounded">
+            <h2 className="text-xl font-semibold mb-2">useInputの例</h2>
+            <p className="mb-4">フォーム入力を簡単に管理するカスタムフックの例です。</p>
+            <Link
+              href="/input"
+              className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            >
+              Inputデモを見る
+            </Link>
+          </div>
+
+          <div className="p-4 border rounded">
             <h2 className="text-xl font-semibold mb-2">LocalStorageの例</h2>
             <p className="mb-4">ブラウザのLocalStorageを使用してデータを永続化する例です。</p>
             <Link
